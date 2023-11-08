@@ -6,6 +6,10 @@ h1 {
     color:darkslategray
     text-align center;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .assign {
     background-color: darkslategray;
     margin: 10px;
