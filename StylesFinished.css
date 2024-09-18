@@ -1,1 +1,40 @@
+body {
+    background-color: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.assign {
+    background-color: darkslategray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border-radius: 15px;
+}
+.assign img {
+    width: 200px;
+    margin: 10px;
+}
 
+.assign {
+width: 20%;
+box-shadow: 8px 8px black;
+display: block; /* instead of flex */
+border-radius: 20px; /* set last assignment */
+}
+
+body {
+display: flex;
+flex-wrap: wrap;
+}
+
+h1 {
+width: 100%;
+display: block;
+}
