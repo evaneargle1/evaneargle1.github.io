@@ -1,110 +1,32 @@
-/* General Styling */
-body{
-    background: #f8feff;
-    font-family:"Times New Roman", Times, serif;
-    margin: 40px;
-}
-
-h1 {
+    color: black;
     text-align: center;
-    color: #6f7bfc;
 }
-
-h1:hover{
-    color:rgb(126, 14, 201);
-    text-decoration: overline underline;
-    text-underline-offset: 5px;
-
-}
-
-/* Project Styling */
-
-h3 {
-    text-align: center;
-    font-style: italic;
-}
-
-.projects{
-    display:flex;
-    flex-wrap:wrap;
-}
-.project{
-    width:30%;
-    margin: 10px;
-    padding: 20px 10px;
-    background:#a4abf8;
-    border-radius: 25%;
-}
-
-.project img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid rgb(126, 14, 201);
-    display: block;
-    margin: auto;
-}
-
-.project img:hover{
-    border: 2px solid white;
-}
-
-a{
+a {
     text-decoration: none;
-    color: rgb(126, 14, 201);
+    color: black;
 }
-
-.project a:hover{
-    color: white;
+.assign {
+    background-color: darkslategray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border-radius: 15px;
 }
-
-.project p {
-    text-align: center;
-    margin: 15px;
+.assign img {
+    width: 200px;
+    margin: 10px;
 }
-
-/* About Section Styling */
-
-.about{
-    display:flex;
-    flex-wrap:wrap;
-    margin-right: 100px;
-    margin-left: 100px;
-    justify-content: center;
+.assign {
+width: 20%;
+box-shadow: 8px 8px black;
+display: block; /* instead of flex */
+border-radius: 20px; /* set last assignment */
 }
-
-.about img {
-    width: 150px;
-    height: 200px;
-    border-radius: 25%;
-    border: 2px solid rgb(126, 14, 201);
+body {
+display: flex;
+flex-wrap: wrap;
 }
-
-.about p {
-    width:50%;
-    text-align: center;
-    margin: auto;
-    line-height: 125%;
-}
-
-
-/* Skills Section Styling */
-.skills {
-    margin: 40px;
-}
-
-/* Contact Section Styling */
-.contact{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-}
-
-.contact a {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.contact a:hover {
-    text-decoration: underline;
+h1 {
+width: 100%;
+display: block;
 }
